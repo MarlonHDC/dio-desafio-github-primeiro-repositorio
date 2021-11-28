@@ -1,0 +1,32 @@
+Porque o Git é importante e principais conceitos?
+Você pode não ter percebido o valor que isso tem para qualquer pessoa que desenvolve software, mas vamos mostrar algumas situações em que esse controle de versão pode fazer toda a diferença.
+
+Trabalho de Equipe: Você trabalha com mais duas pessoas da área de programação em um projeto, fez algumas alterações no código na sua máquina, criando uma funcionalidade para o sistema, e quer compartilhá-la com seus colegas. Como você faria isso?
+Dados mais seguros Você trabalhou durante duas semanas em uma função nova para o programa e, quando chega ao trabalho, sua máquina sofre uma pane e apaga o disco. Como você recupera seu trabalho?
+Gestão de mudanças: Você fez algumas alterações no código e elas foram publicadas, porém, o sistema teve um comportamento estranho e acabou apresentando erros. Como você retorna para a versão anterior?
+Esses três exemplos demonstram o valor que um controle de versão pode ter quando falamos no desenvolvimento em escala de software. Ele permite a recuperação de versões, códigos e seu compartilhamento de forma simples e segura.
+
+Os conceitos do Git
+São vários conceitos dentro do Git que nos permitem manipular o código-fonte dentro de suas inúmeras versões. Vamos listar os principais deles para que você possa se familiarizar.
+
+Repositório
+O primeiro é o repositório, local físico onde os arquivos e suas cópias ficarão armazenados. O repositório pode ser local ou remoto, podendo salvar não apenas arquivos de texto, mas também imagens, áudios e outros elementos relacionados ao projeto.
+
+Branch
+Branches são os ramos, cópias do código original que podem ser manipuladas de forma livre pela pessoa que trabalha em programação, sem afetar as funcionalidades em produção no código-fonte.
+
+Isso permite que todas as alterações sejam realizadas de forma segura, sem que erros ocorram na cópia principal do projeto.
+
+Merge
+Após a finalização de um trabalho em um Branch, é necessário realizar o Merge, fundir a cópia e seus arquivos modificados com o ramo principal do projeto. Isso acontece apenas no repositório local para que ajustes possam ser feitos.
+
+Push Request
+O Push Request é o envio das modificações após o Merge para o repositório central, para que todas as outras pessoas que atuam no desenvolvimento possam atualizar suas cópias e revisar o código criado, verificando conflitos com seus próprios trabalhos.
+
+Pull Request
+O Pull Request é utilizado quando outra pessoa que atua no desenvolvimento muda o ramo principal no repositório central, puxando as modificações realizadas para a sua máquina, fundindo a nova versão com o seu código local.
+
+Fork
+Trata-se do comando de cópia de um repositório remoto para a máquina local, realizado sempre que vamos começar a trabalhar em um projeto que já existe. Também é usado para pegar um código público para posterior modificação e utilização em um programa interno.
+
+Fonte https://blog.betrybe.com/tecnologia/git-e-github/
