@@ -20,6 +20,6 @@ public class EntradasSaidasJava {
         System.out.format("A nota de %s é %.2f \n" , nomeentrada, notaentrada);
 
         System.out.println( "Fim do programa.");
-
+    // Commit de finalização
     }
 }
